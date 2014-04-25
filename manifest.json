@@ -1,0 +1,39 @@
+{
+  "manifest_version": 2,
+
+  "name": "Enablon Builder Tabs Titler",
+  "description": "a short hack that makes table and field edit tabs easier to read",
+  "version": "2.1",
+
+  "background": {
+    "scripts": ["abtabs.js","abtabs.config.js"],
+    "persistent": false
+  },
+  
+  "web_accessible_resources": [
+    "images/page_icon.png",
+  	"images/field_icon.png",
+  	"images/function_icon.png",
+    "images/app_icon.png",
+  	"images/template_icon.png",
+    "images/constant_icon.png",
+    "images/report_icon.png",
+    "images/filter_icon.png",
+    "images/batch_icon.png",
+    "images/rule_icon.png",
+    "images/template_icon.png",
+    "images/workflow_icon.png",
+    "images/family_icon.png",
+    "images/section_icon.png",
+    "images/view_icon.png",
+    "images/layout_icon.png",
+    "images/query_icon.png",
+    "images/switch_icon.png"
+  ],
+  
+  "permissions": [
+  	"tabs",
+  	"https://*.enablon.com/*",
+  	"http://localhost/*"
+  ]
+}
