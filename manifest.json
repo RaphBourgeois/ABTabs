@@ -6,7 +6,7 @@
   "version": "2.1",
 
   "background": {
-    "scripts": ["abtabs.js","abtabs.config.js"],
+    "scripts": ["/js/abtabs.js","/js/abtabs.config.js"],
     "persistent": false
   },
   
